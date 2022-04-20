@@ -1,0 +1,32 @@
+#calculatorGrid{
+    width: 12em;
+    height: 20em;
+    padding: 1em;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+.input-output{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#inputBox{
+    margin-bottom: 10px;
+    display: block;
+    height: 40px;
+    width: 150px;
+}
+
+#outputBox{
+    display: block;
+    height: 40px;
+    width: 150px;
+}
+
+.btn{
+    border: 1px solid #dee2e6;
+}

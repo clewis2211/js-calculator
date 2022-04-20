@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>JS-CALCULATOR</title>
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1>JS Calculator</h1>
+    </div>
+    <div class="container border rounded calculator-grid" id="calculatorGrid">
+        <div class="input-output">
+            <div data-previous-operand  class=" border previous-operand" id="inputBox">
+            </div>
+            <div data-current-operand  class=" border current-operand" id="outputBox"></div>
+        </div>
+        <div class="mt-2" id="allButtons">
+            <button class="btn" id="numberBtn">1</button>
+            <button class="btn" id="numberBtn">2</button>
+            <button class="btn" id="numberBtn">3</button>
+            <button class="btn" id="numberBtn">4</button>
+            <button class="btn" id="numberBtn">5</button>
+            <button class="btn" id="numberBtn">6</button>
+            <button class="btn" id="numberBtn">7</button>
+            <button class="btn" id="numberBtn">8</button>
+            <button class="btn" id="numberBtn">9</button>
+            <button class="btn" id="numberBtn">0</button>
+            <button class="btn" id="numberBtn">+</button>
+            <button class="btn" id="numberBtn">-</button>
+            <button class="btn" id="numberBtn">/</button>
+            <button class="btn" id="numberBtn">*</button>
+            <button class="btn" id="numberBtn">=</button>
+            <button class="btn" id="numberBtn">AC</button>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
